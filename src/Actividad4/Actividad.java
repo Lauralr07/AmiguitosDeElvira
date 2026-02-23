@@ -4,11 +4,11 @@ public class Actividad {
 
 
     public static void main(String[] args) {
-        String nombre = "Ana";
+        String nombre = "Pedro";
 
         saludar(nombre);
         System.out.println("Número de caracteres: " + contarCaracteres(nombre));
-        System.out.println("En mayúsculas: " + convertirMayusculas(nombre));
+        System.out.println("En minusculas: " + convertirMinusculas(nombre));
         System.out.println("¿Empieza por vocal? " + empiezaPorVocal(nombre));
     }
 
@@ -27,8 +27,8 @@ public class Actividad {
     }
 
     // Método 3: convierte el texto a mayúsculas
-    public static String convertirMayusculas(String texto) {
-        return texto.toUpperCase();
+    public static String convertirMinusculas(String texto) {
+        return texto.toLowerCase();
     }
 
     // Método 4: comprueba si empieza por vocal
