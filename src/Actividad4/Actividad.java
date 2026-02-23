@@ -19,6 +19,10 @@ public class Actividad {
 
     // Método 2: devuelve cuántos caracteres tiene el nombre
     public static int contarCaracteres(String texto) {
+    	if(texto == null) {
+    		System.out.println("El texto es nulo");
+    		return 0;
+    	}
         return texto.length();
     }
 
