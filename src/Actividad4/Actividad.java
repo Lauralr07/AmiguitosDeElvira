@@ -14,7 +14,7 @@ public class Actividad {
 
     // Método 1: saluda a la persona
     public static void saludar(String nombre) {
-        System.out.println("Hola, " + nombre + "!");
+        System.out.println("Buenos días mi estimado/a, " + nombre + "!");
     }
 
     // Método 2: devuelve cuántos caracteres tiene el nombre
