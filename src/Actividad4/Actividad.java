@@ -29,9 +29,19 @@ public class Actividad {
 
     // Método 4: comprueba si empieza por vocal
     public static boolean empiezaPorVocal(String texto) {
+        if (texto == null) {
+            return false;
+        }
+
+        texto = texto.trim();
+        if (texto.isEmpty()) {
+            return false;
+        }
+
         char primera = Character.toLowerCase(texto.charAt(0));
         return primera == 'a' || primera == 'e' || primera == 'i' || primera == 'o' || primera == 'u';
     }
+
 }
 
 
